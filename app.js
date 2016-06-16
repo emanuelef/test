@@ -22,7 +22,7 @@ app.use(function*(next) {
 // response
 
 app.use(function*() {
-    this.body = 'Ok';
+    this.body = 'Ok 2';
 });
 
 app.listen(8787);
